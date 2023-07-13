@@ -1,0 +1,42 @@
+:root {
+  --red-background: rgb(219, 155, 155);
+}
+
+.container {
+  background-color: white;
+  padding: 5em;
+  color: black;
+}
+.container .header {
+  display: flex;
+}
+.container .header .left-side {
+  animation: slide-from-left 500ms linear;
+  color: var(--red-background);
+}
+.container .content .button-container {
+  background-color: green;
+}
+.container .content .button-container button {
+  background-color: var(--red-background);
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+}
+.container .content .button-container button:hover {
+  cursor: pointer;
+}
+.container .content .button-container button:disabled {
+  background-color: rgb(151, 37, 37);
+  cursor: default;
+}
+
+@keyframes slide-from-left {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=test.css.map */
