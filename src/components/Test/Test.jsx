@@ -4,8 +4,8 @@ const Test = () => {
 	return (
 		<div className='container'>
 			<div className='header'>
-				<div className='left-side'>left</div>
-				<div className='right-side'>right</div>
+				<div className='left-side'>right</div>
+				<div className='right-side'>left</div>
 			</div>
 
 			<div className='content'>
